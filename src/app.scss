@@ -1,0 +1,27 @@
+#src {
+  display: block;
+  border: solid 3px #333;
+  color: #333;
+  min-height: 50px;
+  padding: 20px;
+  text-shadow: 1px 1px 0 #fff;
+  cursor: pointer;
+}
+
+#src.dropover {
+  background-color: #cff;
+  color: #9cc;
+}
+
+#csv {
+  width: 100%;
+  height: 20em;
+}
+
+#file {
+  display: none;
+}
+
+.fa-caret-right {
+  margin: 0 0.5em;
+}
