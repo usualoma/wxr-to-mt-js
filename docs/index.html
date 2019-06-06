@@ -1,98 +1,13 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
   <head>
     <meta charset="UTF-8" />
     <title></title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
-      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
-      crossorigin="anonymous"
-    />
+    <meta http-equiv="refresh" content="0; URL=https://movabletype.github.io/mt-wxr-converter/">
   </head>
   <body>
-    <div class="container-fluid">
-      <h1>Wordpressのエクスポートファイルの変換</h1>
-      <p>
-        WordpressのエクスポートファイルをMovableType.netへインポート可能な形式に変換します。
-      </p>
-
-      <label id="src" effectAllowed="move">
-        XMLファイルをアップロード <input type="file" id="file" />
-      </label>
-
-      <div id="actions" class="d-none">
-        <fieldset>
-          <legend>投稿タイプ</legend>
-
-          <p>投稿タイプの関連付けを指定してください。</p>
-          <ul class="list-unstyled" id="post-types"></ul>
-
-          <template id="post-type">
-            <li>
-              <label class="w-100">
-                <span></span> <i class="fa fa-caret-right"></i>
-                <select
-                  class="form-control d-inline-block w-auto"
-                  name=""
-                ></select>
-              </label>
-            </li>
-          </template>
-        </fieldset>
-
-        <fieldset>
-          <legend>カスタムフィールド</legend>
-          <p>
-            Woredpressでのフィールド名と、MovableType.netでのカスタムフィールドの識別子の関連付けを指定してください。
-          </p>
-          <ul id="custom-fields" class="list-unstyled"></ul>
-
-          <template id="custom-field">
-            <li>
-              <label class="w-100">
-                <span></span> <i class="fa fa-caret-right"></i>
-                <input class="form-control d-inline-block w-auto" />
-              </label>
-            </li>
-          </template>
-        </fieldset>
-
-        <fieldset>
-          <legend>オプション</legend>
-          <div class="form-group">
-            <label for="convert-breaks">記事のフォーマット</label>
-            <select class="form-control w-auto" id="convert-breaks">
-              <option value="__default__">改行を変換</option>
-              <option value="richtext">リッチテキスト</option>
-            </select>
-          </div>
-        </fieldset>
-
-        <button id="download" class="btn btn-primary">ダウンロード</button>
-      </div>
-    </div>
-
-    <footer class="footer mt-5">
-      <div class="container-fluid">
-        <a href="https://github.com/usualoma/wxr-to-mt-js/" class="text-muted"
-          >View the code</a
-        >
-      </div>
-    </footer>
-
-    <script src="./dist/app.js"></script>
   </body>
 </html>
+
